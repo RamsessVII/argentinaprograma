@@ -5,14 +5,14 @@ function calcularPromedio3(x, y, z) {
   }
 
   ///--------------------punto a--------------------------------------
-  let promedioA = calcularPromedio(5, 7, 9);
-  console.log("El promedio de 5, 7 y 9 es: " + promedio1);
+  let promedioA = calcularPromedio3(5, 7, 9);
+  console.log("El promedio de 5, 7 y 9 es: " + promedioA);
 
   ///-------------------punto b----------------------------------------
-  let promedioB = calcularPromedio(-2, -3, -8);
-  console.log("El promedio de -2, -3 y -8 es: " + promedio2);
+  let promedioB = calcularPromedio3(-2, -3, -8);
+  console.log("El promedio de -2, -3 y -8 es: " + promedioB);
   
   ///------------------punto c--------------------------------------------
-  let promedioC = calcularPromedio(-1.2, 5.3, -3.3);
-
+  let promedioC = calcularPromedio3(-1.2, 5.3, -3.3);
+  console.log("El promedio de -1.2, 5.3 y 3-3 es: " + promedioC);
   

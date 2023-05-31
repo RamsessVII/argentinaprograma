@@ -1,0 +1,96 @@
+Ejercicio 1
+a) 
+El resultado de restar 10 y 2 es: 8
+
+es lo que devuelve mi programa ya que lo respondí en el mismo con este codigo. 
+
+	let minuendo = 10;
+	let sustraendo = 2;
+	let resultado = resta(minuendo, sustraendo);
+ 		console.log("El resultado de restar " + minuendo + " y " + sustraendo + " es: " + resultado);
+
+-----------------------------------------------------------
+Ejercicio 1
+b)
+
+El resultado de multiplicar 2, 17 y 6 es: 204
+
+Es el resultado que se muestra gracias a la parte del codigo que escribí.
+  let num1 = 2;
+  let num2 = 17;
+  let num3 = 6;
+  let resultado = multiplicacion(num1, num2, num3);
+  	console.log("El resultado de multiplicar " + num1 + ", " + num2 + " y " + num3 + " es: " + resultado);
+
+---------------------------------------------------------------------------------
+
+Ejercicio 2
+a)
+
+El área del primer rectángulo es: 15 cm²
+
+teniendo en cuenta la función que cree puedo responderlo agregando esta parte.
+
+  let area1 = calcularAreaRectangulo(5, 3);
+  	console.log("El área del primer rectángulo es: " + area1 + " cm²");
+
+--------------------------------------------
+b)
+
+El área del primer rectángulo es: 66.25 cm²
+
+teniendo en cuenta la función que cree puedo responderlo agregando esta parte.
+
+  let area2 = calcularAreaRectangulo(12.5, 5.3);
+  	console.log("El área del primer rectángulo es: " + area2 + " cm²");
+
+----------------------------------------------------------------------------------------
+
+Ejercicio 3
+a)
+
+El área del primer rectángulo es: 15 cm²
+
+se responde utilizando esta parte del codigo:
+
+let gradosCelsiusA = convertirFahrenheitACelsius(50);
+console.log("50 grados Fahrenheit equivalen a " + gradosCelsiusA + " grados Celsius.");
+
+-----------------------------------
+b)
+
+El área del primer rectángulo es: 66.25 cm²
+
+se responde con esta parte del codigo.
+
+let gradosCelsiusB = convertirFahrenheitACelsius(75);
+console.log("75 grados Fahrenheit equivalen a " + gradosCelsiusB + " grados Celsius.")
+
+-------------------------------------------------------------------------------------------Ejercicio 4
+a)
+  let promedioA = calcularPromedio3(5, 7, 9);
+  	console.log("El promedio de 5, 7 y 9 es: " + promedioA);
+
+ lo que responde es:
+	El promedio de 5, 7 y 9 es: 7
+
+--------------------------------
+b)
+let promedioB = calcularPromedio3(-2, -3, -8);
+  console.log("El promedio de -2, -3 y -8 es: " + promedioB);
+
+devuelve:
+El promedio de -2, -3 y -8 es: -4.333333333333333
+
+-------------------------------------------------------
+c)
+let promedioC = calcularPromedio3(-1.2, 5.3, -3.3);
+  console.log("El promedio de -1.2, 5.3 y 3-3 es: " + promedioC);
+
+esta parte del codigo responde:
+El promedio de -1.2, 5.3 y 3-3 es: 0.2666666666666666
+
+-------------------------------------------------------------------------------------------
+
+
+

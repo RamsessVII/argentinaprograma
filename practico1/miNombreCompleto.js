@@ -1,9 +1,16 @@
+//--------Ejercicio 1-----------------------
+//--------1.a+b------------------
+
 let nombre = "Santiago";
+
+//--------1.c-----------------
 
 let apellido = "Acevedo";
 
-let edad = "22";
+//--------1.d-----------------
 
-console.log("Hola, " + nombre + " " + apellido + ". Tienes " + edad + " años.");
+let edad = 22 ;
 
+//--------1.e
 
+console.log("Hola,", nombre, apellido + ". Tienes", edad, "años.");
